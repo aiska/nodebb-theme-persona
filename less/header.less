@@ -111,147 +111,148 @@
 
 .header {
 
-	[component="navbar/title"] {
-		display: none !important; //temp
-	}
+    [component="navbar/title"] {
+        display: none !important; //temp
+    }
 
-	.navbar-toggle {
-		.notification-icon {
-			position: absolute;
-			left: -13px;
-			top: 14px;
+    .navbar-toggle {
+        .notification-icon {
+            position: absolute;
+            left: -13px;
+            top: 14px;
 
-			&:before {
-				display: none;
-			}
-		}
-	}
+            &:before {
+                display: none;
+            }
+        }
+    }
 
-	#user_dropdown {
-		padding: 10px 15px;
+    #user_dropdown {
+        padding: 10px 15px;
 
-		img, .user-icon {
-			.user-icon-style(30px, 1.8rem, 50%);
-			border: 0px none;
+        img, .user-icon {
+            .user-icon-style(30px, 1.8rem, 50%);
+            border: 0px none;
 
-			span {
-				font-size: 14px;
-				font-weight: 400;
-			}
-		}
-	}
+            span {
+                font-size: 14px;
+                font-weight: 400;
+            }
+        }
+    }
 
-	.forum-title {
-		margin: 0px;
-	}
+    .forum-title {
+        font-family: 'audiowide';
+        margin: 0px;
+    }
 
-	.forum-logo {
-		float: left;
-		max-height: 50px;
-		width: auto;
-	}
+    .forum-logo {
+        float: left;
+        max-height: 50px;
+        width: auto;
+    }
 
-	@media (max-width: @screen-xs-max) {
-		.forum-logo {
-			margin-left: 15px;
-		}
-	}
+    @media (max-width: @screen-xs-max) {
+        .forum-logo {
+            margin-left: 15px;
+        }
+    }
 
-	.header-topic-title {
-		text-align: right;
-		padding: 15px 15px;
-		font-size: 18px;
-		line-height: 20px;
-		text-overflow: ellipsis;
-		overflow: hidden;
-		white-space: nowrap;
-		span {
-			text-overflow: ellipsis;
-			white-space: nowrap;
-			color: @brand-primary;
-		}
-	}
+    .header-topic-title {
+        text-align: right;
+        padding: 15px 15px;
+        font-size: 18px;
+        line-height: 20px;
+        text-overflow: ellipsis;
+        overflow: hidden;
+        white-space: nowrap;
+        span {
+            text-overflow: ellipsis;
+            white-space: nowrap;
+            color: @brand-primary;
+        }
+    }
 
-	.pagination-block {
-		margin-right: 10px !important;
-		margin-left: 10px !important;
-		transition: opacity 250ms ease-in;
-		opacity: 0;
-		pointer-events: none;
+    .pagination-block {
+        margin-right: 10px !important;
+        margin-left: 10px !important;
+        transition: opacity 250ms ease-in;
+        opacity: 0;
+        pointer-events: none;
 
-		&.ready {
-			opacity: 1;
-			pointer-events: inherit;
-		}
+        &.ready {
+            opacity: 1;
+            pointer-events: inherit;
+        }
 
-		a {
-			display: inline-block;
-			padding-left: 2px;
-			padding-right: 2px;
-		}
+        a {
+            display: inline-block;
+            padding-left: 2px;
+            padding-right: 2px;
+        }
 
-		.progress-container {
-			height: 2px;
-			position: absolute;
-			bottom: 8px;
-			left: 8px;
-			background: #666;
-			width: 90%;
-			margin: auto;
+        .progress-container {
+            height: 2px;
+            position: absolute;
+            bottom: 8px;
+            left: 8px;
+            background: #666;
+            width: 90%;
+            margin: auto;
 
-			.progress-bar {
-				background-color: @gray-lighter;
-				height: 2px;
-			}
-		}
+            .progress-bar {
+                background-color: @gray-lighter;
+                height: 2px;
+            }
+        }
 
-		.dropdown-toggle {
-			display: inline-block;
-			padding-left: 5px;
-			padding-right: 5px;
-			padding-top: 0px;
-			padding-bottom: 0px;
-		}
+        .dropdown-toggle {
+            display: inline-block;
+            padding-left: 5px;
+            padding-right: 5px;
+            padding-top: 0px;
+            padding-bottom: 0px;
+        }
 
-		.open>a {
-			background-color: rgba(0, 0, 0, 0)!important;
-		}
+        .open>a {
+            background-color: rgba(0, 0, 0, 0)!important;
+        }
 
 
-		.dropdown-menu {
-			padding: 10px;
-		}
+        .dropdown-menu {
+            padding: 10px;
+        }
 
-		@media (max-width: @screen-xs-max) {
-			.progress-container {
-				display: inline-block;
-				position: static;
-				bottom: 0px;
-				margin-left: 1em;
-				width: 100px;
-				margin-bottom: 3px;
-			}
-		}
-	}
+        @media (max-width: @screen-xs-max) {
+            .progress-container {
+                display: inline-block;
+                position: static;
+                bottom: 0px;
+                margin-left: 1em;
+                width: 100px;
+                margin-bottom: 3px;
+            }
+        }
+    }
 
-	.notif-dropdown-link {
-		// margin-top: 1em;
-		border-top: 1px solid rgba(163, 163, 163, 0.5);
-		padding: 0 5px 0 5px;
+    .notif-dropdown-link {
+        // margin-top: 1em;
+        border-top: 1px solid rgba(163, 163, 163, 0.5);
+        padding: 0 5px 0 5px;
 
-		a {
-			display: block;
-			text-align: center;
-			padding: 0.5em 0;
-			font-weight: 600;
-		}
-	}
+        a {
+            display: block;
+            text-align: center;
+            padding: 0.5em 0;
+            font-weight: 600;
+        }
+    }
 
-	#search-form {
-		.advanced-search-link {
-			margin-left: -30px;
-		}
-	}
+    #search-form {
+        .advanced-search-link {
+            margin-left: -30px;
+        }
+    }
 }
 
 .breadcrumb {

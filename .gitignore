@@ -7,3 +7,6 @@ sftp-config.json
 .idea
 .vscode
 node_modules/
+/.vs/config/applicationhost.config
+*.suo
+/.vs
