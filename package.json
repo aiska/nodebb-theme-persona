@@ -1,5 +1,5 @@
 {
-  "name": "nodebb-theme-persona",
+  "name": "nodebb-theme-persona-koplax",
   "version": "10.1.24",
   "nbbpm": {
     "compatibility": "^1.13.0"
@@ -8,7 +8,7 @@
   "main": "theme.less",
   "repository": {
     "type": "git",
-    "url": "https://github.com/psychobunny/nodebb-theme-persona"
+    "url": "https://github.com/aiska/nodebb-theme-persona"
   },
   "keywords": [
     "nodebb",
@@ -32,11 +32,16 @@
       "name": "Barış Soner Uşaklı",
       "email": "baris@designcreateplay.com",
       "url": "https://github.com/barisusakli"
+    },
+    {
+      "name": "Aiska Hendra",
+      "email": "aiskahendra@gmail.com",
+      "url": "https://github.com/aiska"
     }
   ],
   "license": "BSD-2-Clause",
   "bugs": {
-    "url": "https://github.com/psychobunny/nodebb-theme-persona/issues"
+    "url": "https://github.com/aiska/nodebb-theme-persona/issues"
   },
   "dependencies": {
     "pulling": "^2.0.0",

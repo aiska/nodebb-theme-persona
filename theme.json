@@ -1,7 +1,7 @@
 {
-    "id": "nodebb-theme-persona",
-    "name": "Persona",
-    "description": "The default theme for NodeBB. Uses a standard approach to forum design.",
-    "url": "https://github.com/psychobunny/nodebb-theme-persona",
-    "screenshot": "screenshot.png"
+  "id": "nodebb-theme-persona-koplax",
+  "name": "Persona-Koplax",
+  "description": "Koplax theme base on Persona.",
+  "url": "https://github.com/aiska/nodebb-theme-persona",
+  "screenshot": "screenshot.png"
 }
